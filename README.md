@@ -30,5 +30,33 @@ To run this project locally, follow these steps:
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Vishu-raj/SecureVault_v1.O.git](https://github.com/Vishu-raj/SecureVault_v1.O.git)
+```bash
+git clone https://github.com/Vishu-raj/SecureVault_v1.O.git
+```
+
+2. **Setup the Backend:**
+```bash
+cd Backend/worker
+npm install
+npm run dev  # or your specific wrangler start command
+
+```
+
+3. **Setup the Frontend:**
+Open a new terminal window:
+```bash
+cd Frontend
+npm install
+npm run dev
+
+```
+
+## 👨‍💻 Author
+
+**Vishu Raj** * GitHub: [@Vishu-raj](https://github.com/Vishu-raj)
+
+* LinkedIn: [Vishu_Raj](https://www.linkedin.com/in/vishu_raj)
+
+---
+
+*Built with security and speed in mind.*
