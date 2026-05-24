@@ -1,0 +1,11 @@
+name = "secure-task-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "secure-task-db"
+database_id = "4b0b8c6b-0969-4aee-b563-36e44ffa34fa"
+
+[vars]
+JWT_SECRET = "cf-secure-task-portal-jwt-secret-2026-replace-me"
